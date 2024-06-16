@@ -22,13 +22,6 @@ const Wrapper = styled.main`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background: #f5f5f5;
-    color: #333;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    transition: background-color 0.2s ease-in-out;
 `
 
 const Layout = ({ children }: LayoutProps) => {
